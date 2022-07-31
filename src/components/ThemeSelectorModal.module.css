@@ -1,0 +1,48 @@
+.modal {
+  position: absolute;
+  z-index: 100;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: rgba(154, 154, 154, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.8em;
+  margin-top: 0.5em;
+  font-weight: 500;
+}
+
+.dropdown select {
+  padding: .5em;
+  margin-top: .5em;
+}
+
+.saveBtn {
+  background-color: var(--primary-blue) !important;
+  color: white;
+  margin: .5em 0;
+}
+
+.systemTheme {
+  display: flex;
+  flex-direction: column;
+}
+
+.systemTheme select{
+  margin:  1em 0;
+}
+
+.customTheme {
+  display: flex;
+  flex-direction: column;
+}
+
+.customTheme input {
+  margin: 1em;
+}

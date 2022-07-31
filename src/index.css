@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+
+:root {
+  --primary-blue: #5ba1aa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: black;
+}
+
+input {
+  padding: 0.5em;
+  margin: 0.4em 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.primary-blue {
+  color: var(--primary-blue);
+}
+
+
+.btn {
+  background: white;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 3px;
+  border: 1px solid var(--primary-blue);
+}
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(239.26deg, #ddeeed 63.17%, #fdf1e0 94.92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}

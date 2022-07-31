@@ -1,0 +1,14 @@
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: .5em;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: var(--primary-blue);
+    font-weight: 400;
+    margin: 0 10px;
+}

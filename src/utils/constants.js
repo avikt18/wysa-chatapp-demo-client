@@ -1,0 +1,1 @@
+export const URL = 'https://wysa-chatapp-demo.herokuapp.com/api'
