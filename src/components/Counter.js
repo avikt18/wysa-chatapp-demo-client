@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 function Counter({ delayValue, setDelayValue }) {
   return (
