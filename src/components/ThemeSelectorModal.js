@@ -37,8 +37,8 @@ function ThemeSelectorModal({ setIsOpen, setUserInfo, userInfo }) {
         })
         try {
             await axios.post(`${URL}/user/theme`, {
-                backgroundColor: userInfo.backgroundColor,
-                bubbleColor: userInfo.bubbleColor
+                backgroundColor: data.backgroundColor,
+                bubbleColor: data.bubbleColor
             }, {
                 headers: {
                     authToken: userInfo.authToken

@@ -38,9 +38,6 @@ function ChatWindow({ userInfo, delayValue }) {
 
         const delayedMessage = !isEmpty ? setInterval(showMessage, delayValue) : null
 
-        console.log(messageBuffer)
-        console.log(messages)
-
         return () => clearInterval(delayedMessage)
     }, [messageBuffer, messages, delayValue])
 
